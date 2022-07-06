@@ -13,7 +13,7 @@ body {
 }
 
 .section-margin {
-  margin: 100px 0;
+  margin: 120px 0;
 }
 
 /* ====== Header Area ====== */
@@ -44,7 +44,7 @@ header {
   top: 25%;
   position: relative;
   z-index: 999;
-  max-width: 850px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,31 +58,138 @@ header {
 .header-content h1 {
   font-size: 65px;
   font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 40px;
 }
 
 .header-content p {
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.header-content .btn {
+.btn {
   text-decoration: none;
   font-size: 16px;
   background: orangered;
   padding: 10px 25px;
   border-radius: 5px;
   color: #fff;
+  max-width: 220px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/*  */
+
+.donation-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.single-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.single-item div {
+  width: 140px;
+  height: 135px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-item h3 {
+  display: block;
+  font-size: 30px;
+  color: gray;
+  top: 40px;
+}
+
+#common-donte {
+  border: 1px solid #FF5959;
+  color: #FF5959;
+  border-radius: 5px;
+}
+
+.donation-area input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.donation-area input:hover[type=text] {
+  border-bottom: 2px solid #FF5959;
+}
+
+/* planing-text */
+.planing-text {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.planing-items {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 20px;
+  padding: 20px;
+  height: 450px;
+  border-radius: 10px
+}
+
+.item i {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.item h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.colored-item {
+  background-color: #fbe8b4;
 }
 
 /* subscription-area */
-.subscription-area {
+.subscription-area,
+.donation-area,
+.visual-area {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
 
-.subscription-text h2 {
+.subscription-text h2,
+.planing-text h2,
+.donation-text h2,
+.visual-text h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -113,7 +220,6 @@ select {
 
 input[type=submit] {
   /* width: 100%; */
-  background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -121,6 +227,23 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   background-color: #FF5959;
+}
+
+/* ===== */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
 
 /* ==== Footer === */
