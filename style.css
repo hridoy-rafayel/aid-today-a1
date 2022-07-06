@@ -116,10 +116,13 @@ header {
   top: 40px;
 }
 
-#common-donte {
-  border: 1px solid #FF5959;
-  color: #FF5959;
+.common-donte {
+  border: 2px solid #FF5959;
   border-radius: 5px;
+}
+
+.common-donte h3 {
+  color: #FF5959;
 }
 
 .donation-area input[type=text] {
