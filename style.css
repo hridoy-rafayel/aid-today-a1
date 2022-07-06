@@ -162,7 +162,8 @@ header {
   margin: 20px;
   padding: 20px;
   height: 450px;
-  border-radius: 10px
+  border-radius: 10px;
+  width: 330px
 }
 
 .item i {
@@ -176,7 +177,15 @@ header {
   margin-bottom: 20px;
 }
 
-.colored-item {
+.item-1 {
+  background-color: #afd0d4b3;
+}
+
+.item-2 {
+  background-color: #fad6d6;
+}
+
+.item-3 {
   background-color: #fbe8b4;
 }
 
