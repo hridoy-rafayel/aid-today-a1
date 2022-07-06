@@ -251,7 +251,7 @@ input[type=submit] {
 }
 
 .image-gallery img {
-  width: 200px;
+  width: 300px;
   height: 200px;
   margin: 10px;
   border: 1px solid lightgray;
